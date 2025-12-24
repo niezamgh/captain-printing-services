@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CAPTAIN PRINTING SERVICES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #e3f2fd, #bbdefb);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+            background-color: #1976d2;
+            padding: 20px;
+            margin: 0;
+            text-shadow: 2px 2px 4px #000;
+        }
+        h2 {
+            color: #0d47a1;
+            margin-top: 20px;
+        }
+	h3 {
+            color: #0d47a1;
+            margin-top: 20px;
+        }
+        h4 {
+            color: #1565c0;
+            margin-top: 15px;
+        }
+        p {
+            color: #333;
+            font-size: 14px;
+        }
+        p2 {
+            color: #333;
+            font-size: 14px;
+	    margin-top: 15px;
+	}
+        .section {
+            background: white;
+            margin: 20px auto;
+            padding: 15px;
+            width: 50%;
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+	.section2{
+            background: #fecc00;
+            margin: 20px full;
+            padding: 5px;
+           
+            
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+	}
+        img {
+            margin: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        video {
+            margin-top: 20px;
+            border: 3px solid #1976d2;
+            border-radius: 20px;   
+        }
+	 body {
+            background-image: url("Background.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+	}
+
+    </style>
+</head>
+<body>
+    <h1>CAPTAIN PRINTING SERVICES</h1>
+
+    <audio id="bgMusic" loop>
+  	<source src="work-music.mp3" type="audio/mpeg">
+	</audio>
+
+	<button onclick="playMusic()" style="
+  		background:#fcca02;
+  		color:white;
+  		border:none;
+  		padding:10px 20px;
+  		border-radius:20px;
+  		font-weight:bold;
+  		cursor:pointer;
+ 		margin:10px;">
+  		🔊 Click to play Background Music
+	</button>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const music = document.getElementById("bgMusic");
+
+  function playMusic() {
+    music.muted = false;
+    music.volume = 0.4;
+    music.play();
+  }
+
+  window.playMusic = playMusic;
+
+  const videos = document.querySelectorAll("video");
+
+  videos.forEach(video => {
+    video.addEventListener("play", () => {
+      music.pause();
+    });
+
+    video.addEventListener("pause", () => {
+      music.play();
+    });
+
+    video.addEventListener("ended", () => {
+      music.play();
+    });
+  });
+
+});
+</script>
+
+
+
+
+    <div class="section">
+	<h2>WELCOME TO MY PAGE</h2>
+	<p2>I offer several services such as printing, binding, plagiarism checking and canva file downloader at budget prices. My services focus on students who need cheap printing and exam tools. But, at the same time I also maintain good quality and originality.</p2>
+
+    </div>
+	
+
+    <div class="section">
+        <img src="Poster.png" alt="Poster" style="width:400px; height:550px;">
+    </div>
+
+<div class="section" style="width:1000px; height:950p;">
+     
+   	<img src="Printing.png" alt="Printing" style="width:400px; height:550p;">
+        <img src="Turnitin update.png" alt="Turnitin" style="width:400px; height:565px;">
+    </div>  
+    
+    <div class="section";">
+        <video id="vid1"controls width="400">
+            <source src="Video 1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+	<video id="vid2"controls width="400">
+            <source src="compressed-bL4chitG.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="section">
+        <h2>CHOOSE WHAT YOU NEED</h2>
+
+        <h4>PRINTING</h4>
+        <p>Black & White</p>
+
+        <h4>BINDING</h4>
+        <p>Tape Binding</p>
+        <p>2 Hole Binding</p>
+
+        <h4>TURNITIN</h4>
+        <p>Plagiarism only</p>
+        <p>AI only</p>
+
+        <h4>CANVA PRO DOWNLOAD</h4>
+        <p>All file format</p>
+    </div>
+
+ <div class="section">
+        <h2>PRICES</h2>
+
+	<h4 style="text-align:center;">PRINTING</h4>
+	<ul style="list-style-position: inside; text-align: left; padding:0; max-	width:300px; margin:auto; line-height:1.8;">
+    		<li style="display:flex; justify-content:space-between;">
+       			<span style="font-size:14px;">Black & White</span>
+        		<span style="font-size:14px;">RM0.20 (Under 50 pages)(RM0.30 for duplex)</span>
+		<li style="display:flex; justify-content:space-between;">
+		            	<span style="font-size:14px;">Colour</span>
+        		<span style="font-size:14px;">RM0.40 (Under 50 pages)(RM0.70 for duplex)</span>
+   		</li>
+
+	<h4 style="text-align:center;">BINDING</h4>
+	<ul style="list-style-position: inside; text-align: left; padding:0; max-	width:300px; margin:auto; line-height:1.8;">
+    		<li style="display:flex; justify-content:space-between;">
+       			<span style="font-size:14px;">Tape binding</span>
+        		<span style="font-size:14px;">RM2.00 (Under 50 pages)</span>
+		<li style="display:flex; justify-content:space-between;">
+       			<span style="font-size:14px;">2 Holes bindng</span>
+        		<span style="font-size:14px;">RM2.00 (Under 50 pages)</span>
+   		</li>
+
+	<h4 style="text-align:center;">TURNITIN</h4>
+	<ul style="list-style-position: inside; text-align: left; padding:0; max-	width:300px; margin:auto; line-height:1.8;">
+    		<li style="display:flex; justify-content:space-between;">
+       			<span style="font-size:14px;">Plagiarism only</span>
+        		<span style="font-size:14px;">RM1.50</span>
+		<li style="display:flex; justify-content:space-between;">
+       			<span style="font-size:14px;">AI only</span>
+        		<span style="font-size:14px;">RM2.50</span>
+		<li style="display:flex; justify-content:space-between;">
+       			<span style="font-size:14px;">Plagiarism + AI</span>
+        		<span style="font-size:14px;">RM4.00</span>
+   		</li>
+    
+	<h4 style="text-align:center;">CANVA PRO DOWNLOAD</h4>
+	<ul style="list-style-position: inside; text-align: left; padding:0; max-	width:300px; margin:auto; line-height:1.8;">
+    		<li style="display:flex; justify-content:space-between;">
+       			<span style="font-size:14px;">Tape binding</span>
+        		<span style="font-size:14px;">RM2.00 (Under 50 pages)</span>
+   		</li>
+    </div>
+
+
+<div class= section>
+		<h4 style="text-align:center">OUR WORKING HOURS</h4>
+		<img src="Working Hours.png" alt="Printing" style="width:400px; height:550p;">
+	</div>
+
+<div class= section> 
+		<h4 style="text-align:center">OUR LOCATION</h4>
+		<p> Student Life Centre (SLC)
+1st Floor Block N, Lot 119 N-3, Jalan Sulaman, Lor Plaza Permai 3, 88400 Kota Kinabalu, Sabah</p>
+		<a href="https://maps.app.goo.gl/xwWaRZAKqWRNmoBi9">Click here</a>
+	</div>
+
+<div class= section> 
+		<h4 style="text-align:center">PAYMENT METHOD</h4>
+		<p> We accept all payment methods, but we recommend use e-wallet or digital bank for more efficient.</p>
+		<p> For more information please contact me:</p>
+		<p>Hotline: 01133304078</p>
+		<p> or </p>
+		<a href="https://wa.me/60143811147" class="btn"> Whatsapp Now </a>
+	</div>
+
+   <div class="section2">
+	<h4>Product revised</h4>
+    	<p>Professional solutions for students and businesses. We provide high-quality printing and binding services, plagiarism checking with neat, fast and affordable finishes.
+    </p>
+
+	<p2>Read our license: <p2/>
+	<a href="https://drive.google.com/file/d/1LnZcZkuBk8V1GRq78mAE9j-cj_mXA3IM/view?usp=drive_link">Click here</a>
+
+	<p class="desc"> @CAPTAINPRINTINGSERVICES2025-2026.
+    </p>
+   </div>
+
+
+</body>                             
+</html>

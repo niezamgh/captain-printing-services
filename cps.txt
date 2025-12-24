@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CAPTAIN PRINTING SERVICES</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #e3f2fd, #bbdefb);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+            background-color: #1976d2;
+            padding: 20px;
+            margin: 0;
+            text-shadow: 2px 2px 4px #000;
+        }
+        h2 {
+            color: #0d47a1;
+            margin-top: 20px;
+        }
+        h4 {
+            color: #1565c0;
+            margin-top: 15px;
+        }
+        p {
+            color: #333;
+            font-size: 16px;
+        }
+        .section {
+            background: white;
+            margin: 20px auto;
+            padding: 15px;
+            width: 800%;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        img {
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        video {
+            margin-top: 10px;
+            border: 3px solid #1976d2;
+            border-radius: 10px;
+	   
+        }
+    </style>
+</head>
+<body>
+    <h1>CAPTAIN PRINTING SERVICES</h1>
+
+    <div class="section">
+        <h2>Select what you need</h2>
+
+        <h4>PRINTING</h4>
+        <p>- Black & White</p>
+
+        <h4>BINDING</h4>
+        <p>- Tape Binding</p>
+        <p>- 2 Hole Binding</p>
+
+        <h4>TURNITIN</h4>
+        <p>- Plagiarism only</p>
+        <p>- AI only</p>
+
+        <h4>CANVA PRO DOWNLOAD</h4>
+        <p>- All file format</p>
+    </div>
+
+    <div class="section">
+        <img src="Poster.png" alt="Poster" style="width:300px; height:450px;">
+        <img src="Printing.png" alt="Printing" style="width:300px; height:450px;">
+        <img src="Turnitin.png" alt="Turnitin" style="width:300px; height:450px;">
+        
+        <video controls width="500">
+            <source src="20-10 muộn.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
